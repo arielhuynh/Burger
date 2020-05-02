@@ -1,4 +1,5 @@
 const mysql = require("mysql");
+
 const connection;
 
 if (process.env.JAWSDB_URL) {
@@ -7,6 +8,7 @@ if (process.env.JAWSDB_URL) {
 } else {
   // If the server lacks the variable, it falls back on an explicitly defined local database.
   connection = mysql.createConnection({
+      port: 3306,
       host: "localhost",
       user: "root",
       password: "ariHuy12",
