@@ -1,3 +1,5 @@
+$(document).ready(function() {
+
 $(function() {
 	$(".change-devoured").on("click", function(event) {
 		let id = $(this).data("id");
@@ -55,4 +57,5 @@ $(function() {
 			}
 		);
 	});
+});
 });
