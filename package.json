@@ -1,15 +1,8 @@
 {
   "name": "burger",
   "version": "1.0.0",
-  "description": "eat da burger",
+  "description": "eat da burg",
   "main": "server.js",
-  "dependencies": {
-    "express": "^4.17.1",
-    "express-handlebars": "^4.0.4",
-    "mysql": "^2.18.1",
-    "node": "^14.0.0"
-  },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
@@ -18,10 +11,18 @@
     "type": "git",
     "url": "git+https://github.com/arielhuynh/Burger.git"
   },
-  "author": "",
+  "keywords": [
+    "burger"
+  ],
+  "author": "ariel huynh",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/arielhuynh/Burger/issues"
   },
-  "homepage": "https://github.com/arielhuynh/Burger#readme"
+  "homepage": "https://github.com/arielhuynh/Burger#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.4",
+    "mysql": "^2.18.1"
+  }
 }
