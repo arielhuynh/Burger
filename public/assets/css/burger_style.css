@@ -1,0 +1,16 @@
+.jumbotron {
+    background-color: rgb(129, 194, 224);
+}
+
+.burgercreative {
+    text-align: center;
+}
+
+.burgermenu {
+    padding-left: 400px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
