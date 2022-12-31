@@ -26,6 +26,6 @@
     "mysql": "^2.18.1"
   },
   "devDependencies": {
-    "webpack": "^1.14.0"
+    "webpack": "^5.75.0"
   }
 }
